@@ -1,0 +1,30 @@
+{
+  "name": "css-with-important-loader",
+  "version": "1.0.0",
+  "description": "Convert all property to important in specific css files",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.spec.js",
+    "coverage": "cat coverage/*/lcov.info | codecov"
+  },
+  "keywords": [
+    "webpack",
+    "utf8",
+    "css",
+    "!important"
+  ],
+  "author": "Teruo Kunihiro",
+  "license": "ISC",
+  "dependencies": {
+    "css": "^2.2.1",
+    "loader-utils": "1.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "css-loader": "^0.28.11",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.0.5",
+    "object-assign": "^4.1.1",
+    "webpack": "4.5.0"
+  }
+}
